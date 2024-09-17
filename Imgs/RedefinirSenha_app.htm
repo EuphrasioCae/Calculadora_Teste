@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redefinir senha</title>
+    <link rel="stylesheet" href="Login_appCapitalize.css">
+</head>
+<body>
+    <aside class="menu">
+        <section class="main-content menu-content">
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li>
+                        <a href="#Características">Características</a>
+                    </li>
+                    <li>
+                        <a href="#Preços">Preços</a>
+                    </li>
+                    <li>
+                        <a href="#FAQs">FAQs</a>
+                    </li>
+                    <li>
+                        <a href="#Sobre">Sobre</a>
+                    </li>
+                </ul>
+            </nav>
+    </aside>
+<!-- Aqui acaba a configuração do menu da Página -->
+
+<div class="grid-container" id="Cadastro">
+    <p class="grid-container Slogan"><npbr>A <span class="PalavraChave">CAPITALIZE</span> ajuda você a</npbr> focar nos seus investimentos.</p>
+    <!-- <npbr></npbr> EVITA QUEBRA DE LINHA MUITO IMPORTANTE -->
+    <div class="grid-container CaixaInput">
+
+        <label>  <!-- E-MAIL DO USUÁRIO -->     
+            <input class="email" type="email" id="email" name="email" placeholder="  Email" required>
+        </label>
+
+        <label>  <!-- SENHA DO USUÁRIO -->
+            <input class="senha" type="password" id="password" name="senha" placeholder="  Digite a nova senha" required>
+        </label>
+
+        <label>  <!-- NOVA SENHA DO USUÁRIO -->
+            <input class="senha" type="password" id="password" name="senha" placeholder="  Digite novamente a senha" required>
+        </label>
+
+        <p class="Divisao">━━━━━━━━━━━━━━━━━━━━━━</p>
+
+        <button type="submit" class="btnNewAccount"> Redefinir a senha</button>
+
+        <button type="submit" class="btnVoltar"> 
+            <a href="http://127.0.0.1:5500/Imgs/Login_appCapitalize.htm" target="_self">Voltar</a>
+        </button>
+    </div>
+    
+</body>
+</html>
